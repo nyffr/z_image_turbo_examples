@@ -1,0 +1,27 @@
+Name:          06_damselfly_macro
+Erstellt:      2026-10-25 07:36:58
+Dauer:         20.8s
+Prompt-ID:     719e1d7b-c8b8-4477-ba7d-398d66ae52bc
+ComfyUI-Datei: 06_damselfly_macro_00008_.png
+Workflow:      z_image_turbo.json
+
+--- Sampler ---
+Seed:          4817398244941243033
+Steps:         9
+CFG:           1
+Sampler:       res_multistep
+Scheduler:     simple
+Denoise:       1
+Shift:         3
+
+--- Bild ---
+Größe:         1920 x 1080
+Batch:         1
+
+--- Modelle ---
+Diffusion:     z_image_turbo_bf16.safetensors (weight_dtype: default)
+CLIP:          qwen_3_4b.safetensors (type: lumina2)
+VAE:           ae.safetensors
+
+--- Prompt ---
+Extreme macro of a damselfly perched on a dewdrop-covered fern, iridescent wings catching morning light, shallow depth of field with creamy bokeh, water droplets acting as tiny lenses, shot on Canon EOS R5 with MP-E 65mm at 3x magnification, f/8, focus stacked, scientific clarity

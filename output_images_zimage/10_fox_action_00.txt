@@ -1,0 +1,27 @@
+Name:          10_fox_action
+Erstellt:      2026-10-25 07:38:14
+Dauer:         17.5s
+Prompt-ID:     cd6bd3e3-0670-4677-ab33-7877cf527288
+ComfyUI-Datei: 10_fox_action_00008_.png
+Workflow:      z_image_turbo.json
+
+--- Sampler ---
+Seed:          764497505290907326
+Steps:         9
+CFG:           1
+Sampler:       res_multistep
+Scheduler:     simple
+Denoise:       1
+Shift:         3
+
+--- Bild ---
+Größe:         1920 x 1080
+Batch:         1
+
+--- Modelle ---
+Diffusion:     z_image_turbo_bf16.safetensors (weight_dtype: default)
+CLIP:          qwen_3_4b.safetensors (type: lumina2)
+VAE:           ae.safetensors
+
+--- Prompt ---
+A red fox leaping mid-air across a snow-covered meadow, snow crystals suspended in the air around its paws, breath visible as vapor, bright winter sun backlighting the scene creating a rim light on fur, shot on Nikon Z9 with 600mm f/4 at 1/2000s, wildlife photography, tack sharp on the eyes

@@ -1,0 +1,27 @@
+Name:          09_blacksmith_bw
+Erstellt:      2026-10-25 07:37:57
+Dauer:         18.8s
+Prompt-ID:     38c193a2-59ad-499b-a342-c3d0b9cd99b0
+ComfyUI-Datei: 09_blacksmith_bw_00008_.png
+Workflow:      z_image_turbo.json
+
+--- Sampler ---
+Seed:          4500023523675095555
+Steps:         9
+CFG:           1
+Sampler:       res_multistep
+Scheduler:     simple
+Denoise:       1
+Shift:         3
+
+--- Bild ---
+Größe:         1920 x 1080
+Batch:         1
+
+--- Modelle ---
+Diffusion:     z_image_turbo_bf16.safetensors (weight_dtype: default)
+CLIP:          qwen_3_4b.safetensors (type: lumina2)
+VAE:           ae.safetensors
+
+--- Prompt ---
+Black and white documentary photograph of a blacksmith mid-strike, sparks flying from glowing orange metal, smoke and soot in the air, deeply contrasted lighting from forge fire, sweat-glistened arms, shot on Tri-X 400 pushed to 1600, Leica M6 with 35mm Summicron, Sebastião Salgado aesthetic

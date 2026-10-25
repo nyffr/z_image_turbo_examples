@@ -1,0 +1,27 @@
+Name:          03_alpine_sunrise
+Erstellt:      2026-10-25 07:35:54
+Dauer:         17.3s
+Prompt-ID:     c9013ad1-2d9f-4dce-8db0-43e68a9dd169
+ComfyUI-Datei: 03_alpine_sunrise_00009_.png
+Workflow:      z_image_turbo.json
+
+--- Sampler ---
+Seed:          2075191431068272444
+Steps:         9
+CFG:           1
+Sampler:       res_multistep
+Scheduler:     simple
+Denoise:       1
+Shift:         3
+
+--- Bild ---
+Größe:         1920 x 1080
+Batch:         1
+
+--- Modelle ---
+Diffusion:     z_image_turbo_bf16.safetensors (weight_dtype: default)
+CLIP:          qwen_3_4b.safetensors (type: lumina2)
+VAE:           ae.safetensors
+
+--- Prompt ---
+Misty alpine valley at sunrise, layered mountain ridges fading into atmospheric haze, single shaft of golden light breaking through clouds onto a lone larch tree, frost on grass in foreground, shot on Phase One IQ4 150MP, 45mm lens, f/11, ultra-sharp foreground to infinity, large format detail

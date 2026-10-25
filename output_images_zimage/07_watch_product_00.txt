@@ -1,0 +1,27 @@
+Name:          07_watch_product
+Erstellt:      2026-10-25 07:37:17
+Dauer:         19.4s
+Prompt-ID:     6a774fb8-bcf1-425c-95a7-4c02331cfdeb
+ComfyUI-Datei: 07_watch_product_00008_.png
+Workflow:      z_image_turbo.json
+
+--- Sampler ---
+Seed:          2663673273776059416
+Steps:         9
+CFG:           1
+Sampler:       res_multistep
+Scheduler:     simple
+Denoise:       1
+Shift:         3
+
+--- Bild ---
+Größe:         1920 x 1080
+Batch:         1
+
+--- Modelle ---
+Diffusion:     z_image_turbo_bf16.safetensors (weight_dtype: default)
+CLIP:          qwen_3_4b.safetensors (type: lumina2)
+VAE:           ae.safetensors
+
+--- Prompt ---
+A vintage mechanical wristwatch floating against a deep navy background, dramatic chiaroscuro lighting from a single softbox at 45 degrees, exposed gears and jewels visible through sapphire crystal, microscopic dust particles, shot on Sony A1 with 90mm macro at f/11, commercial product photography

@@ -1,0 +1,27 @@
+Name:          01_fisherman_portrait
+Erstellt:      2026-10-25 07:35:17
+Dauer:         24.6s
+Prompt-ID:     f12af4c3-bb29-4c4d-89fe-dec49d32e1ef
+ComfyUI-Datei: 01_fisherman_portrait_00011_.png
+Workflow:      z_image_turbo.json
+
+--- Sampler ---
+Seed:          938939341077640324
+Steps:         9
+CFG:           1
+Sampler:       res_multistep
+Scheduler:     simple
+Denoise:       1
+Shift:         3
+
+--- Bild ---
+Größe:         1920 x 1080
+Batch:         1
+
+--- Modelle ---
+Diffusion:     z_image_turbo_bf16.safetensors (weight_dtype: default)
+CLIP:          qwen_3_4b.safetensors (type: lumina2)
+VAE:           ae.safetensors
+
+--- Prompt ---
+A close-up documentary portrait of an elderly fisherman, weathered skin with visible pores and deep wrinkles, salt-crusted grey beard, piercing blue eyes, harsh midday sunlight creating dramatic shadows, subsurface scattering on skin, natural skin oil and imperfections, shot on Kodak Portra 400, Hasselblad H6D with 80mm lens at f/2.8, unretouched photojournalism, slight film grain

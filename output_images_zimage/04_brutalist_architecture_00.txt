@@ -1,0 +1,27 @@
+Name:          04_brutalist_architecture
+Erstellt:      2026-10-25 07:36:17
+Dauer:         23.3s
+Prompt-ID:     77e747c0-5e02-4338-90b5-d5391a095e14
+ComfyUI-Datei: 04_brutalist_architecture_00009_.png
+Workflow:      z_image_turbo.json
+
+--- Sampler ---
+Seed:          914856642434662987
+Steps:         9
+CFG:           1
+Sampler:       res_multistep
+Scheduler:     simple
+Denoise:       1
+Shift:         3
+
+--- Bild ---
+Größe:         1920 x 1080
+Batch:         1
+
+--- Modelle ---
+Diffusion:     z_image_turbo_bf16.safetensors (weight_dtype: default)
+CLIP:          qwen_3_4b.safetensors (type: lumina2)
+VAE:           ae.safetensors
+
+--- Prompt ---
+Brutalist concrete staircase spiraling downward, geometric shadows from a single overhead skylight, monochromatic gray palette with one red door at the bottom, symmetrical composition, shot on Fujifilm GFX 100S, 23mm tilt-shift lens, architectural photography style reminiscent of Hélène Binet

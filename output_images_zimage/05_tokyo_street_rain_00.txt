@@ -1,0 +1,27 @@
+Name:          05_tokyo_street_rain
+Erstellt:      2026-10-25 07:36:37
+Dauer:         19.4s
+Prompt-ID:     2b2b3648-74c6-4291-96cf-e3dc7dc44ce5
+ComfyUI-Datei: 05_tokyo_street_rain_00009_.png
+Workflow:      z_image_turbo.json
+
+--- Sampler ---
+Seed:          2752714224073625166
+Steps:         9
+CFG:           1
+Sampler:       res_multistep
+Scheduler:     simple
+Denoise:       1
+Shift:         3
+
+--- Bild ---
+Größe:         1920 x 1080
+Batch:         1
+
+--- Modelle ---
+Diffusion:     z_image_turbo_bf16.safetensors (weight_dtype: default)
+CLIP:          qwen_3_4b.safetensors (type: lumina2)
+VAE:           ae.safetensors
+
+--- Prompt ---
+Tokyo rainy night in Shinjuku, neon reflections in wet asphalt, lone businessman with transparent umbrella walking past a ramen shop, motion blur on passing cyclist, shot on Ricoh GR III, 28mm, f/2.8, 1/30s, candid moment, Daido Moriyama atmosphere

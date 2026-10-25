@@ -1,0 +1,27 @@
+Name:          08_salt_lake_surreal
+Erstellt:      2026-10-25 07:37:38
+Dauer:         20.1s
+Prompt-ID:     b2aa0b83-92ca-4ac5-b3b3-afed81ab95fe
+ComfyUI-Datei: 08_salt_lake_surreal_00008_.png
+Workflow:      z_image_turbo.json
+
+--- Sampler ---
+Seed:          6015654066147907265
+Steps:         9
+CFG:           1
+Sampler:       res_multistep
+Scheduler:     simple
+Denoise:       1
+Shift:         3
+
+--- Bild ---
+Größe:         1920 x 1080
+Batch:         1
+
+--- Modelle ---
+Diffusion:     z_image_turbo_bf16.safetensors (weight_dtype: default)
+CLIP:          qwen_3_4b.safetensors (type: lumina2)
+VAE:           ae.safetensors
+
+--- Prompt ---
+A woman in a flowing red silk dress standing knee-deep in a mirror-still salt lake at twilight, perfect reflection doubling her form, distant volcano on horizon, dreamlike pastel sky transitioning from lavender to peach, shot on medium format film, Tim Walker editorial style

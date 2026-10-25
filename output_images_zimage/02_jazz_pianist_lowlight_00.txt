@@ -1,0 +1,27 @@
+Name:          02_jazz_pianist_lowlight
+Erstellt:      2026-10-25 07:35:36
+Dauer:         19.5s
+Prompt-ID:     076347ff-2249-4556-a3fc-e3c63963a922
+ComfyUI-Datei: 02_jazz_pianist_lowlight_00011_.png
+Workflow:      z_image_turbo.json
+
+--- Sampler ---
+Seed:          4025868854565487364
+Steps:         9
+CFG:           1
+Sampler:       res_multistep
+Scheduler:     simple
+Denoise:       1
+Shift:         3
+
+--- Bild ---
+Größe:         1920 x 1080
+Batch:         1
+
+--- Modelle ---
+Diffusion:     z_image_turbo_bf16.safetensors (weight_dtype: default)
+CLIP:          qwen_3_4b.safetensors (type: lumina2)
+VAE:           ae.safetensors
+
+--- Prompt ---
+A jazz pianist performing in a dimly lit underground club, single warm tungsten spotlight illuminating hands and keys, deep shadows, cigarette smoke drifting through the light beam, shot on Leica M11 with 50mm Summilux at f/1.4, ISO 3200, slight grain, Saul Leiter-inspired mood
